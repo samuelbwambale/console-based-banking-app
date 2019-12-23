@@ -1,4 +1,4 @@
-
+package employeeinfo;
 
 public class MyStringList {
 	private final int INITIAL_LENGTH = 4;
