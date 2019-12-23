@@ -1,6 +1,9 @@
 
 import java.util.Scanner;
 
+import employeeinfo.MyStringList;
+import employeeinfo.Employee;
+
 public class Main {
 
 	Employee[] emps;
@@ -55,7 +58,7 @@ public class Main {
 		for(int i = 0; i < emps.length; ++i){
 			System.out.println(""+i+". "+emps[i].getName());
 		}
-		System.out.print("Select an employee: (type a number)");
+		System.out.print("Select an employee: (type a number) ");
 		int empChoice = sc.nextInt();
 		System.out.println();
 		Employee e = emps[empChoice];
@@ -64,7 +67,7 @@ public class Main {
 			String name = list.get(i);
 			System.out.println(""+i+". "+name);
 		}
-		System.out.print("Select an account: (type a number)");
+		System.out.print("Select an account: (type a number) ");
 		
 		int accountIndex = sc.nextInt();
 		System.out.println();
